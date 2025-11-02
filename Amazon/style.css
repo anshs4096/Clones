@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e3e6e6;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131921;
+  color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.location .small-text {
+  font-size: 12px;
+  color: #ccc;
+}
+.location .bold-text {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 700px;
+  margin: 0 10px;
+}
+
+.search-bar select {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.search-bar button {
+  background-color: #febd69;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang img {
+  width: 20px;
+  margin-right: 5px;
+}
+.lang {
+  display: flex;
+  align-items: center;
+}
+.account, .orders {
+  font-size: 12px;
+}
+.account h4, .orders h4 {
+  font-size: 13px;
+}
+
+.bottom-nav {
+  background-color: #232f3e;
+  color: white;
+  padding: 10px 20px;
+}
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.bottom-nav li {
+  cursor: pointer;
+  font-size: 14px;
+}
+.bottom-nav li:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.arrow {
+  position: absolute;
+  top: 40%;
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.arrow.left {
+  left: 20px;
+}
+.arrow.right {
+  right: 20px;
+}
+
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.grid img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.grid p {
+  font-size: 13px;
+  text-align: center;
+}
+.box a {
+  color: #007185;
+  font-size: 13px;
+  text-decoration: none;
+}
+.box a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #131921;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
